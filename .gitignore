@@ -1,0 +1,4 @@
+venv/
+__pycache__/
+*.pyc
+sync_error.log

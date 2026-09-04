@@ -1,0 +1,856 @@
+{
+  "source": "embedded-topology-seed / TMSA transporte-regular",
+  "synced_at": "",
+  "seed": true,
+  "sync_warning": "Topología inicial conservadora; se sustituye al sincronizar TMSA correctamente.",
+  "lines": [
+    {
+      "id": "601",
+      "code": "L01",
+      "name": "Maó-Ciutadella",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/601",
+      "directions": [
+        {
+          "name": "Ciutadella",
+          "stops": [
+            "Estació d'autobusos de Maó",
+            "IES Joan Ramis",
+            "Hospital Mateu Orfila",
+            "L'Argentina (a.)",
+            "Alaior - Poliesportiu",
+            "Alaior - Centre (a.)",
+            "Es Mercadal",
+            "Ferreries (a.)",
+            "Piscina municipal",
+            "Josep Mascaró Pasarius - (Via Perimetral)",
+            "Plaça de la Pau"
+          ],
+          "areas": [
+            "Maó",
+            "Maó",
+            "Maó",
+            "Alaior",
+            "Alaior",
+            "Alaior",
+            "Es Mercadal",
+            "Ferreries",
+            "Ciutadella",
+            "Ciutadella",
+            "Ciutadella"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "C. Bisbe Juano, 3 - (Platja Gran)",
+            "Plaça de la Pau",
+            "Josep Mascaró Pasarius - (Via Perimetral)",
+            "Piscina municipal",
+            "Ferreries (t.)",
+            "Es Mercadal",
+            "Alaior - Centre (t.)",
+            "Alaior - Poliesportiu",
+            "L'Argentina (t.)",
+            "Maó - Poliesportiu (t.)",
+            "Hospital Mateu Orfila",
+            "Estació d'autobusos de Maó"
+          ],
+          "areas": [
+            "Ciutadella",
+            "Ciutadella",
+            "Ciutadella",
+            "Ciutadella",
+            "Ferreries",
+            "Es Mercadal",
+            "Alaior",
+            "Alaior",
+            "Alaior",
+            "Maó",
+            "Maó",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "602",
+      "code": "L02",
+      "name": "Maó-Es Castell",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/602",
+      "directions": [
+        {
+          "name": "Es Castell",
+          "stops": [
+            "Maó",
+            "Es Castell"
+          ],
+          "areas": [
+            "Maó",
+            "Es Castell"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Es Castell",
+            "Maó"
+          ],
+          "areas": [
+            "Es Castell",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "603",
+      "code": "L03",
+      "name": "Maó-Sant Lluís",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/603",
+      "directions": [
+        {
+          "name": "Sant Lluís",
+          "stops": [
+            "Maó",
+            "Sant Lluís"
+          ],
+          "areas": [
+            "Maó",
+            "Sant Lluís"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Sant Lluís",
+            "Maó"
+          ],
+          "areas": [
+            "Sant Lluís",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "614",
+      "code": "L14",
+      "name": "Bus Exprés Maó-Ciutadella",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/614",
+      "directions": [
+        {
+          "name": "Ciutadella",
+          "stops": [
+            "Maó",
+            "Ciutadella"
+          ],
+          "areas": [
+            "Maó",
+            "Ciutadella"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Ciutadella",
+            "Maó"
+          ],
+          "areas": [
+            "Ciutadella",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "618",
+      "code": "L18",
+      "name": "Maó-Instituts Bintalfa",
+      "operational": false,
+      "url": "https://www.tmsa.es/linea/618",
+      "directions": [
+        {
+          "name": "Bintalfa",
+          "stops": [
+            "Maó",
+            "Bintalfa"
+          ],
+          "areas": [
+            "Maó",
+            "Bintalfa"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Bintalfa",
+            "Maó"
+          ],
+          "areas": [
+            "Bintalfa",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "621",
+      "code": "L21",
+      "name": "Maó-Sant Climent",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/621",
+      "directions": [
+        {
+          "name": "Sant Climent",
+          "stops": [
+            "Maó",
+            "Sant Climent"
+          ],
+          "areas": [
+            "Maó",
+            "Sant Climent"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Sant Climent",
+            "Maó"
+          ],
+          "areas": [
+            "Sant Climent",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "622",
+      "code": "L22",
+      "name": "Maó-Es Canutells",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/622",
+      "directions": [
+        {
+          "name": "Es Canutells",
+          "stops": [
+            "Maó",
+            "Es Canutells"
+          ],
+          "areas": [
+            "Maó",
+            "Es Canutells"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Es Canutells",
+            "Maó"
+          ],
+          "areas": [
+            "Es Canutells",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "624",
+      "code": "L24",
+      "name": "Maó-Sa Mesquida-Cala Llonga",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/624",
+      "directions": [
+        {
+          "name": "Cala Llonga",
+          "stops": [
+            "Maó",
+            "Sa Mesquida",
+            "Cala Llonga"
+          ],
+          "areas": [
+            "Maó",
+            "Sa Mesquida",
+            "Cala Llonga"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Cala Llonga",
+            "Sa Mesquida",
+            "Maó"
+          ],
+          "areas": [
+            "Cala Llonga",
+            "Sa Mesquida",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "625",
+      "code": "L25",
+      "name": "Maó-Trebalúger-Maó",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/625",
+      "directions": [
+        {
+          "name": "Maó",
+          "stops": [
+            "Maó",
+            "Trebalúger",
+            "Maó"
+          ],
+          "areas": [
+            "Maó",
+            "Trebalúger",
+            "Maó"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Maó",
+            "Trebalúger",
+            "Maó"
+          ],
+          "areas": [
+            "Maó",
+            "Trebalúger",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "631",
+      "code": "L31",
+      "name": "Maó-Cala en Porter",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/631",
+      "directions": [
+        {
+          "name": "Cala en Porter",
+          "stops": [
+            "Maó",
+            "Cala en Porter"
+          ],
+          "areas": [
+            "Maó",
+            "Cala en Porter"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Cala en Porter",
+            "Maó"
+          ],
+          "areas": [
+            "Cala en Porter",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "632",
+      "code": "L32",
+      "name": "Maó-Son Bou",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/632",
+      "directions": [
+        {
+          "name": "Son Bou",
+          "stops": [
+            "Maó",
+            "Son Bou"
+          ],
+          "areas": [
+            "Maó",
+            "Son Bou"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Son Bou",
+            "Maó"
+          ],
+          "areas": [
+            "Son Bou",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "633",
+      "code": "L33",
+      "name": "Cala en Porter-Alaior",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/633",
+      "directions": [
+        {
+          "name": "Alaior",
+          "stops": [
+            "Cala en Porter",
+            "Alaior"
+          ],
+          "areas": [
+            "Cala en Porter",
+            "Alaior"
+          ]
+        },
+        {
+          "name": "Cala en Porter",
+          "stops": [
+            "Alaior",
+            "Cala en Porter"
+          ],
+          "areas": [
+            "Alaior",
+            "Cala en Porter"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "651",
+      "code": "L51",
+      "name": "Maó-Cala Galdana",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/651",
+      "directions": [
+        {
+          "name": "Cala Galdana",
+          "stops": [
+            "Maó",
+            "Cala Galdana"
+          ],
+          "areas": [
+            "Maó",
+            "Cala Galdana"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Cala Galdana",
+            "Maó"
+          ],
+          "areas": [
+            "Cala Galdana",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "652",
+      "code": "L52",
+      "name": "Ciutadella-Cala Galdana",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/652",
+      "directions": [
+        {
+          "name": "Cala Galdana",
+          "stops": [
+            "Ciutadella",
+            "Cala Galdana"
+          ],
+          "areas": [
+            "Ciutadella",
+            "Cala Galdana"
+          ]
+        },
+        {
+          "name": "Ciutadella",
+          "stops": [
+            "Cala Galdana",
+            "Ciutadella"
+          ],
+          "areas": [
+            "Cala Galdana",
+            "Ciutadella"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "653",
+      "code": "L53",
+      "name": "Ferreries-Cala Galdana",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/653",
+      "directions": [
+        {
+          "name": "Cala Galdana",
+          "stops": [
+            "Ferreries",
+            "Cala Galdana"
+          ],
+          "areas": [
+            "Ferreries",
+            "Cala Galdana"
+          ]
+        },
+        {
+          "name": "Ferreries",
+          "stops": [
+            "Cala Galdana",
+            "Ferreries"
+          ],
+          "areas": [
+            "Cala Galdana",
+            "Ferreries"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "654",
+      "code": "L54",
+      "name": "Es Migjorn Gran-Ferreries",
+      "operational": false,
+      "url": "https://www.tmsa.es/linea/654",
+      "directions": [
+        {
+          "name": "Ferreries",
+          "stops": [
+            "Es Migjorn Gran",
+            "Ferreries"
+          ],
+          "areas": [
+            "Es Migjorn Gran",
+            "Ferreries"
+          ]
+        },
+        {
+          "name": "Es Migjorn Gran",
+          "stops": [
+            "Ferreries",
+            "Es Migjorn Gran"
+          ],
+          "areas": [
+            "Ferreries",
+            "Es Migjorn Gran"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "671",
+      "code": "L71",
+      "name": "Maó-Sant Tomàs",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/671",
+      "directions": [
+        {
+          "name": "Sant Tomàs",
+          "stops": [
+            "Maó",
+            "Sant Tomàs"
+          ],
+          "areas": [
+            "Maó",
+            "Sant Tomàs"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Sant Tomàs",
+            "Maó"
+          ],
+          "areas": [
+            "Sant Tomàs",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "672",
+      "code": "L72",
+      "name": "Ciutadella-Sant Tomàs",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/672",
+      "directions": [
+        {
+          "name": "Sant Tomàs",
+          "stops": [
+            "Ciutadella",
+            "Sant Tomàs"
+          ],
+          "areas": [
+            "Ciutadella",
+            "Sant Tomàs"
+          ]
+        },
+        {
+          "name": "Ciutadella",
+          "stops": [
+            "Sant Tomàs",
+            "Ciutadella"
+          ],
+          "areas": [
+            "Sant Tomàs",
+            "Ciutadella"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "673",
+      "code": "L73",
+      "name": "Maó-Alaior-Es Migjorn Gran",
+      "operational": false,
+      "url": "https://www.tmsa.es/linea/673",
+      "directions": [
+        {
+          "name": "Es Migjorn Gran",
+          "stops": [
+            "Maó",
+            "Alaior",
+            "Es Migjorn Gran"
+          ],
+          "areas": [
+            "Maó",
+            "Alaior",
+            "Es Migjorn Gran"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Es Migjorn Gran",
+            "Alaior",
+            "Maó"
+          ],
+          "areas": [
+            "Es Migjorn Gran",
+            "Alaior",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "691",
+      "code": "L91",
+      "name": "Maó-Alcalfar-S'Algar",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/691",
+      "directions": [
+        {
+          "name": "S'Algar",
+          "stops": [
+            "Maó",
+            "Alcalfar",
+            "S'Algar"
+          ],
+          "areas": [
+            "Maó",
+            "Alcalfar",
+            "S'Algar"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "S'Algar",
+            "Alcalfar",
+            "Maó"
+          ],
+          "areas": [
+            "S'Algar",
+            "Alcalfar",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "692",
+      "code": "L92",
+      "name": "Maó-Sant Lluís-Punta Prima",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/692",
+      "directions": [
+        {
+          "name": "Punta Prima",
+          "stops": [
+            "Maó",
+            "Sant Lluís",
+            "Punta Prima"
+          ],
+          "areas": [
+            "Maó",
+            "Sant Lluís",
+            "Punta Prima"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Punta Prima",
+            "Sant Lluís",
+            "Maó"
+          ],
+          "areas": [
+            "Punta Prima",
+            "Sant Lluís",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "693",
+      "code": "L93",
+      "name": "Maó-Sant Lluís-Binibèquer",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/693",
+      "directions": [
+        {
+          "name": "Binibèquer",
+          "stops": [
+            "Maó",
+            "Sant Lluís",
+            "Binibèquer"
+          ],
+          "areas": [
+            "Maó",
+            "Sant Lluís",
+            "Binibèquer"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Binibèquer",
+            "Sant Lluís",
+            "Maó"
+          ],
+          "areas": [
+            "Binibèquer",
+            "Sant Lluís",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    },
+    {
+      "id": "694",
+      "code": "L94",
+      "name": "Maó-Sant Lluís-Binissafúller",
+      "operational": true,
+      "url": "https://www.tmsa.es/linea/694",
+      "directions": [
+        {
+          "name": "Binissafúller",
+          "stops": [
+            "Maó",
+            "Sant Lluís",
+            "Binissafúller"
+          ],
+          "areas": [
+            "Maó",
+            "Sant Lluís",
+            "Binissafúller"
+          ]
+        },
+        {
+          "name": "Maó",
+          "stops": [
+            "Binissafúller",
+            "Sant Lluís",
+            "Maó"
+          ],
+          "areas": [
+            "Binissafúller",
+            "Sant Lluís",
+            "Maó"
+          ]
+        }
+      ],
+      "blocks": [],
+      "periods": [],
+      "schedule_links": []
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+MENORCA BUS - VERSION PREPARADA PARA RENDER
+
+1. CREA UNA CUENTA EN GITHUB
+2. CREA UN REPOSITORIO NUEVO, por ejemplo:
+   menorca-bus
+
+3. SUBE TODO EL CONTENIDO DE ESTA CARPETA AL REPOSITORIO.
+
+4. EN RENDER
+   - New > Web Service
+   - conecta tu cuenta de GitHub
+   - selecciona el repositorio menorca-bus
+
+5. Si Render detecta render.yaml, usará:
+   Build Command:
+     pip install -r requirements.txt
+
+   Start Command:
+     python sync_tmsa.py && gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 120
+
+6. PLAN:
+   Free
+
+7. Cuando termine, Render dará una URL parecida a:
+   https://menorca-bus.onrender.com
+
+IMPORTANTE
+----------
+Render Free se duerme después de un periodo sin uso.
+La primera apertura después de estar dormido puede tardar.
+Al arrancar, primero sincroniza TMSA y después inicia la web.
+
+MÓVIL
+-----
+Android / Chrome:
+- abre la URL
+- menú ⋮
+- Añadir a pantalla de inicio
+
+iPhone / Safari:
+- abre la URL
+- Compartir
+- Añadir a pantalla de inicio
