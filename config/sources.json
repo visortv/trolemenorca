@@ -1,0 +1,6 @@
+{
+  "TMSA": {"operator":"TMSA","index":"https://www.tmsa.es/transporte-regular","hosts":["www.tmsa.es","tmsa.es"],"max_schedule_resources_per_line":12,"fallback_schedule_templates":["https://www.tmsa.es/es/horarios/{id}/VISIBLE/1"]},
+  "TORRES": {"operator":"Bus Torres","index":"https://www.bustorresmenorca.com/api/horarios","catalog_page":"https://www.bustorresmenorca.com/horarios/","hosts":["www.bustorresmenorca.com","bustorresmenorca.com"],"fare_page":"https://www.bustorresmenorca.com/informacion/tarifas/"},
+  "FORNELLS": {"operator":"Autos Fornells","index":"https://www.autosfornells.com/es/linea-regular-ib08/horarios/","fare_page":"https://www.autosfornells.com/es/pasajeros/tarifas/","hosts":["www.autosfornells.com","autosfornells.com"],"max_schedule_resources_per_line":12},
+  "SMART_SYNC": {"quick_check_minutes":240,"full_refresh_hours":24,"locations_refresh_hours":168}
+}
