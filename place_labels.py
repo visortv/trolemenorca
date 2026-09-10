@@ -18,7 +18,11 @@ def _norm(v): return re.sub(r'[^a-z0-9]+', ' ', unicodedata.normalize('NFKD', _c
 @lru_cache(maxsize=1)
 def reference():
     try:
-        data=json.loads(REFERENCE.read_text('utf-8'))
+        if REFERENCE.exists():
+            raw=REFERENCE.read_text('utf-8')
+        else:
+            raw=''.join((REFERENCE.parent/f'places_ref_part{i}.txt').read_text('utf-8') for i in range(1,5))
+        data=json.loads(raw)
         if data.get('schema')!=1 or not isinstance(data.get('places'),dict): return {'places':{},'rules':[]}
         return data
     except (OSError,ValueError): return {'places':{},'rules':[]}
