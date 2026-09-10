@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "description": "Coordenadas públicas de paradas OSM; los horarios y precios siguen procediendo de los operadores.",
+  "refresh_hours": 24,
+  "radius_metres": 5000,
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright"
+}
