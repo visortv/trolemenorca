@@ -1,1 +1,0 @@
-Preparando despliegue automático de Menorca Bus V12.16. Esta rama no afecta a producción hasta mover main.

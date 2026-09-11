@@ -1,2 +1,0 @@
-Menorca Bus V12.16 staging en curso.
-Preparando runtime completo, snapshot verificado y despliegue en Render.

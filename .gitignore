@@ -1,4 +1,7 @@
-venv/
 __pycache__/
 *.pyc
-sync_error.log
+.venv/
+venv/
+data/
+DIAGNOSTICO_MENORCA.zip
+SYNC_RESUMEN.txt
